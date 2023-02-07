@@ -4,7 +4,7 @@ import { client } from "../libs/client";
 type blogProp = {
   blog: any,
   id: any,
-  title: any,
+  title: any
 }
 
 export default function Home({ blog }: blogProp) {
